@@ -1,0 +1,82 @@
+body, html {
+  background-color: #033649;
+}
+
+.pageBox {
+  background-color: #EEE;
+  border-radius: 10px;
+  padding: 0px 50px 50px 50px;
+  margin: 10px auto auto auto;
+}
+
+/* Remove styling from links to make them look better*/
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+
+a:hover {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+
+/*
+ul.resultList {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}*/
+
+.resultItem {
+  /*background-color: #DDD;
+  box-shadow: 5px 5px 1px grey;*/
+  border-left: 5px solid #222;
+  padding-left: 5px;
+  margin-left: -5px;
+  /*margin: 0px;
+  padding: 0px;*/
+}
+
+/* Orange sidebar on hover */
+.resultItem:hover {
+  border-left: 5px solid #D96F32;
+  margin-left: -5px;
+  padding-left: 5px;
+}
+
+.resultItem h2 {
+  color: #D96F32;
+}
+
+/* Generic Footer CSS for my "brand" */
+#contact, #copyright {
+  text-align: center;
+  color: #EEE;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0px;
+}
+
+.contactList li {
+  margin: 10px;
+  display: inline-block;
+}
+
+.contactList li i {
+  padding: 5px;
+  color: #EEE;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.fa-facebook:hover, .fa-linkedin:hover, .fa-fire:hover, .fa-github:hover, .fa-instagram:hover {
+    color: #F78536;
+}
+
+.ender {
+  background-color: #EEE;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto auto auto;
+}
